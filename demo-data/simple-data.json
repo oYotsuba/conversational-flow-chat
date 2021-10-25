@@ -10,9 +10,15 @@
   },
   {
     "id": 2,
-    "text": "Please select the corresponding category of your query.",
-    "messageType": "Text",
-    "nextMessageId": ""
+    "text": "Please select your corresponding bargaining unit.",
+    "messageType": "Question",
+    "nextMessageId": "",
+	"option1": "AMER",
+    "option1_nextMessageId": 4,
+    "option2": "APAC",
+    "option2_nextMessageId": 5,
+	"option3": "EMEA",
+    "option3_nextMessageId": 6
   },
   {
     "id": 3,
@@ -20,4 +26,46 @@
     "messageType": "Text",
     "imageUrl": "",
     "nextMessageId": ""
-  }]
+  },
+  {
+	"id": 4,
+    "text": "Please select the corresponding category of your query.",
+    "messageType": "Question",
+    "nextMessageId": "",
+	"option1": "Policy Inquiry",
+    "option1_nextMessageId": 7,
+    "option2": "Data Collection",
+    "option2_nextMessageId": 8,
+	"option3": "Entry Dispute",
+    "option3_nextMessageId": 9,
+    "option4": "Record Update",
+    "option4_nextMessageId": 10
+  },
+  {
+	"id": 5,
+    "text": "Please select the corresponding category of your query.",
+    "messageType": "Question",
+    "nextMessageId": "",
+	"option1": "Policy Inquiry",
+    "option1_nextMessageId": 7,
+    "option2": "Data Collection",
+    "option2_nextMessageId": 8,
+	"option3": "Entry Dispute",
+    "option3_nextMessageId": 9,
+    "option4": "Record Update",
+    "option4_nextMessageId": 10
+  },
+    {
+	"id": 6,
+    "text": "Please select the corresponding category of your query.",
+    "messageType": "Question",
+    "nextMessageId": "",
+	"option1": "Policy Inquiry",
+    "option1_nextMessageId": 7,
+    "option2": "Data Collection",
+    "option2_nextMessageId": 8,
+	"option3": "Entry Dispute",
+    "option3_nextMessageId": 9,
+    "option4": "Record Update",
+    "option4_nextMessageId": 10
+}]
