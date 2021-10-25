@@ -68,4 +68,10 @@
     "option3_nextMessageId": 9,
     "option4": "Record Update",
     "option4_nextMessageId": 10
+  },
+    { 
+	"id": 7,
+    "text": "Kindly click <link here> to the official Buzz site of CWT Policies. Once again, this is Dave. Thank you for contacting us. Have a great day ahead!",
+    "messageType": "Text",
+    "nextMessageId": "",
 }]
