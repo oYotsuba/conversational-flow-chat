@@ -28,7 +28,9 @@
 	"option1": "OK",
     "option1_nextMessageId": 11,
 	"option2": "Cancel",
-    "option2_nextMessageId": 12
+    "option2_nextMessageId": 12,
+	"option3": "Ampz",
+    "option3_nextMessageId": 13
   },
   {
     "id": 11,
@@ -37,9 +39,15 @@
 	"html": "Ticket No.:",
     "nextMessageId": ""
   },
-    {
+  {
     "id": 12,
     "text": "Ang galing mo kerker",
+    "messageType": "Text",
+    "nextMessageId": ""
+  },
+  {
+    "id": 13,
+    "text": "Ang galing mo kerker2",
     "messageType": "Text",
     "nextMessageId": ""
   },
