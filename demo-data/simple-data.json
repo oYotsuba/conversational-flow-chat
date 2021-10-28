@@ -2,7 +2,6 @@
     "id": 1,
     "text": "Hi! I'm Dave and I'm here to help you. Are you raising a new concern or following up with an existing ORN ticket?",
     "messageType": "Question",
-	"imageUrl": "",
     "nextMessageId": "",
     "option1": "New concern",
     "option1_nextMessageId": 2,
@@ -13,7 +12,6 @@
     "id": 2,
     "text": "Please select your corresponding bargaining unit.",
     "messageType": "Question",
-	"imageUrl": "",
     "nextMessageId": "",
 	"option1": "AMER",
     "option1_nextMessageId": 4,
@@ -26,14 +24,19 @@
     "id": 3,
     "text": "Please enter ticket number.",
     "messageType": "Question",
-    "imageUrl": "",
+    "nextMessageId": "8"
+  },
+  {
+    "id": 8,
+    "text": "Please enter ticket number.",
+    "messageType": "Text",
+	"html": "<input type=\"text\" name=\"ticket\" id=\"ticket\">",
     "nextMessageId": ""
   },
   {
 	"id": 4,
     "text": "Please select the corresponding category of your query.",
     "messageType": "Question",
-	"imageUrl": "",
     "nextMessageId": "",
 	"option1": "Policy Inquiry",
     "option1_nextMessageId": 7,
@@ -48,7 +51,6 @@
 	"id": 5,
     "text": "Please select the corresponding category of your query.",
     "messageType": "Question",
-	"imageUrl": "",
     "nextMessageId": "",
 	"option1": "Policy Inquiry",
     "option1_nextMessageId": 7,
@@ -63,7 +65,6 @@
 	"id": 6,
     "text": "Please select the corresponding category of your query.",
     "messageType": "Question",
-	"imageUrl": "",
     "nextMessageId": "",
 	"option1": "Policy Inquiry",
     "option1_nextMessageId": 7,
@@ -78,6 +79,5 @@
 	"id": 7,
     "text": "Kindly click /link here/ to the official Buzz site of CWT Policies. Once again, this is Dave. Thank you for contacting us. Have a great day ahead!",
     "messageType": "Question",
-	"imageUrl": "",
     "nextMessageId": ""
 }]
