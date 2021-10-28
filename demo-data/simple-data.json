@@ -25,7 +25,7 @@
   {
     "id": 3,
     "text": "Please enter ticket number.",
-    "messageType": "Text",
+    "messageType": "Question",
     "imageUrl": "",
     "nextMessageId": ""
   },
