@@ -77,15 +77,21 @@
       optionText = m["option"+i]
       optionMessageId = m["option"+i+"_nextMessageId"]
 
-      if (optionText != "" && optionText != undefined && optionText != null) {// add option only if text exists
-        var $optionElem = $("<li data-nextId=" + optionMessageId + ">" + optionText + "</li>");
+      if (optionText != "" && optionText != undefined && optionText != null) {// add option only if text exists 
+	  
+		if (optionText == "text") {
+			var $optionElem = $('<li class="bot"><div class="text">' +  m.text + '<input type="text">'  + '</div></li>'); 
+			$optionsList.append($optionElem);
+		}
+		else {
+			var $optionElem = $("<li data-nextId=" + optionMessageId + ">" + optionText + "</li>");
+			
+			$optionElem.click(function() {
+			  selectOption($(this), container, data, delay)
+			});
 
-        $optionElem.click(function() {
-          selectOption($(this), container, data, delay)
-        });
-
-        $optionsList.append($optionElem);
-      }
+			$optionsList.append($optionElem);
+		}
     }
 
     $optionsContainer.append($optionsList);
