@@ -25,12 +25,8 @@
     "text": "Please enter ticket number.",
     "messageType": "Question",
     "nextMessageId": "",
-	"option1": "OK",
+	"option1": "text",
     "option1_nextMessageId": 11,
-	"option2": "Cancel",
-    "option2_nextMessageId": 12,
-	"option3": "Ampz",
-    "option3_nextMessageId": 13
   },
   {
     "id": 11,
