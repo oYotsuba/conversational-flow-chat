@@ -92,6 +92,29 @@
 
     return $optionsContainer;
   }
+  
+  function addInfo(container, data, delay, m) {
+
+    var $infoContainer = $('<li class="options"></li>');
+
+    var $infoList = $('<ul></ul>');
+
+    //var infoText = null;
+
+    //var infoMessageId = null;
+
+    console.log(m.info);
+    if(m.info != null)
+      var $template = $('<li class="bot"><div class="text">' + '<input type="text">'  + '</div></li>');
+    else
+      var $template = $('<li class="bot"><div class="text">'+ m.text +'</div></li>');
+
+    toggleLoader("show", container);
+
+    container.children(".chat-window").scrollTop($(".chat-window").prop('scrollHeight'));
+
+    return $infoContainer;
+  }
 
   function toggleLoader(status, container) {
     if(status=="show")
