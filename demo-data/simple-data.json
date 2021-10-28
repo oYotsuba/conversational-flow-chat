@@ -25,16 +25,15 @@
     "text": "Please enter ticket number.",
     "messageType": "Question",
     "nextMessageId": "",
-	"option1": "",
+	"option1": "OK",
     "option1_nextMessageId": 8
   },
   {
     "id": 8,
     "text": "Ticket Number:",
     "messageType": "Text",
-	"html": "",
-    "nextMessageId": "",
-	"option1": ""
+	"html": "Ticket No.:",
+    "nextMessageId": ""
   },
   {
 	"id": 4,
