@@ -28,9 +28,9 @@
   },
   {
     "id": 8,
-    "text": "Please enter ticket number.",
+    "text": "Ticket Number:",
     "messageType": "Text",
-	"html": "<input type=\"text\" name=\"ticket\" id=\"ticket\">",
+	"html": "",
     "nextMessageId": ""
   },
   {
