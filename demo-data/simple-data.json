@@ -32,8 +32,8 @@
     "id": 8,
     "text": "Ticket Number:",
     "messageType": "Text",
-	"html": "",
-    "nextMessageId": "",
+	"html": "Ticket Number:",
+    "nextMessageId": ""
   },
   {
 	"id": 4,
