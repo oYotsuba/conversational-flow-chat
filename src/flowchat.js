@@ -105,7 +105,7 @@
     // create template if text is not null
     console.log(m.html);
     if(m.html != '')
-      var $template = $('<input type="text"></input>');
+      var $template = $('<li class="bot"><div class="text">' + '<input type="text">' + '</div></li>');
     else if(m.text != null)
       var $template = $('<li class="bot"><div class="text">'+ m.text +'</div></li>');
     else
