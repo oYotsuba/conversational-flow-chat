@@ -24,14 +24,16 @@
     "id": 3,
     "text": "Please enter ticket number.",
     "messageType": "Question",
-    "nextMessageId": "8"
+    "nextMessageId": "",
+	"option1": "",
+    "option1_nextMessageId": 8
   },
   {
     "id": 8,
     "text": "Ticket Number:",
     "messageType": "Text",
 	"html": "",
-    "nextMessageId": ""
+    "nextMessageId": "",
   },
   {
 	"id": 4,
