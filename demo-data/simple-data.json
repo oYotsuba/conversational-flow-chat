@@ -33,7 +33,7 @@
     "id": 8,
     "text": "Please enter ticket number.",
     "messageType": "Text",
-	"html": "<input type="text" name="ticket" id="ticket"/>",
+	"html": "<input type='text' name='ticket' id='ticket'/>",
     "nextMessageId": ""
   },
   {
