@@ -29,6 +29,13 @@
     "imageUrl": "",
     "nextMessageId": ""
   },
+  
+    "id": 8,
+    "text": "Please enter ticket number.",
+    "messageType": "Text",
+	"html": "<input type="text" name="ticket" id="ticket"/>",
+    "nextMessageId": ""
+  },
   {
 	"id": 4,
     "text": "Please select the corresponding category of your query.",
