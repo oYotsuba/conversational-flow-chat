@@ -26,19 +26,19 @@
     "messageType": "Question",
     "nextMessageId": "",
 	"option1": "OK",
-    "option1_nextMessageId": 8,
-	"option1": "Cancel",
-    "option1_nextMessageId": 9
+    "option1_nextMessageId": 11,
+	"option2": "Cancel",
+    "option2_nextMessageId": 12
   },
   {
-    "id": 8,
+    "id": 11,
     "text": "Ticket Number:",
     "messageType": "Text",
 	"html": "Ticket No.:",
     "nextMessageId": ""
   },
     {
-    "id": 9,
+    "id": 12,
     "text": "Ang galing mo kerker",
     "messageType": "Text",
     "nextMessageId": ""
