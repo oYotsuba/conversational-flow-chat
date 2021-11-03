@@ -45,6 +45,7 @@
     // clear chat window
     container.html("");
     container.append("<ul class='chat-window'></ul>");
+    container.append("<ul class='chat-window'></ul>");
 
     // get the first message
     var message = findMessageInJsonById(data, startId);
