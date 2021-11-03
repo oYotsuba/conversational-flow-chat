@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "text": "Hi! I'm 3 and I'm here to help you. Are you raising a new concern or following up with an existing ORN ticket?",
+    "text": "Hi! I'm 2 and I'm here to help you. Are you raising a new concern or following up with an existing ORN ticket?",
     "messageType": "Question",
     "nextMessageId": "",
     "option1": "New concern",
