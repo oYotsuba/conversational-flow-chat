@@ -45,7 +45,7 @@
     // clear chat window
     container.html("");
     container.append("<ul class='chat-window'></ul>");
-    container.append("<ul class='chat-window'></ul>");
+    container.append("<div class='message-box'><input text='' name='' placeholder='Select/type message'> </div>");
 
     // get the first message
     var message = findMessageInJsonById(data, startId);
