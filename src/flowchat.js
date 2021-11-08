@@ -35,7 +35,6 @@ var testingGlobal = "";
     var $userReply = $('<li class="user"><div class="text">'+ $this.html() +'</div></li>');
     container.children('.chat-window').append($userReply);
     container.children('.message-box').append($userReply);
-    console.log("KER");
 
     // get the next message
     var nextMessageId = $this.attr('data-nextId');
@@ -54,6 +53,9 @@ var testingGlobal = "";
     // get the first message
     var message = findMessageInJsonById(data, startId);
 
+    
+    console.log("KER");
+    testingGlobal = message;
     // add message
     generateMessageHTML(container, data, message, delay);
   }
@@ -129,8 +131,7 @@ var testingGlobal = "";
   }
 
   function generateMessageHTML(container, messages, m, delay) {
-
-    testingGlobal = testingGlobal + " " + messages;
+ 
     console.log(messages)
     console.log(testingGlobal);
     
@@ -163,6 +164,7 @@ var testingGlobal = "";
       // call recursively if nextMessageId exists
       if (m.nextMessageId != "") {
         var nextMessage = findMessageInJsonById(messages, m.nextMessageId)
+        testingGlobal = testingGlobal + nextMessage;
         generateMessageHTML(container, messages, nextMessage, delay)
       }
 
