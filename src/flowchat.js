@@ -33,7 +33,7 @@
     var $userReply = $('<li class="user"><div class="text">'+ $this.html() +'</div></li>');
     container.children('.chat-window').append($userReply);
     container.children('.message-box').append($userReply);
-    console.log($userReply);
+    console.log("KER");
 
     // get the next message
     var nextMessageId = $this.attr('data-nextId');
