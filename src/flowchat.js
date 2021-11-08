@@ -1,4 +1,6 @@
 "use strict";
+
+var testingGlobal = "";
 (function( $ ) {
 
   $.fn.flowchat = function( options ) {
@@ -128,6 +130,10 @@
 
   function generateMessageHTML(container, messages, m, delay) {
 
+    testingGlobal = testingGlobal + " " + messages;
+    console.log(messages)
+    console.log(testingGlobal);
+    
     // create template if text is not null
     console.log(m.html);
     if(m.html != null)
